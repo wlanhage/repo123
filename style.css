@@ -1,0 +1,218 @@
+
+
+
+:root {
+    --red: #fa6262;
+    --blue: #cae9f2;
+    --bg-gray: #fbfbfb;
+    --yellow: #fffacc;
+    --green: #e2efc7;
+    --pink: #efc7c7;
+    --font-color: #000;
+    --blue-solid: #a1dbed;
+    --green-solid: #d4eda1;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1, h2, h3, p {
+    font-family: poppins;
+  }
+
+nav {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+nav .logo {
+    
+    margin-left: 60px;
+}
+nav .logo h1 {
+    color: #fa6262;
+    font-size: 40px;
+}
+
+nav .navright {
+    display: flex;
+    gap: 50px;
+    margin-right: 60px;
+}
+
+nav .navright h2{
+    font-size: 20px;
+}
+
+
+/*  NAVIGATION  */ 
+
+section {
+    display: flex;
+    flex-direction: row;
+
+    
+
+    
+}
+
+section .lefts {
+    
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-left: 40px;
+
+    max-width: 53%;
+    
+    
+}
+
+section .lefts .note {
+    width: 280px;
+    height: 280px;
+    background-color: white;
+
+    box-shadow: 1px 1px 1px 1px gray;
+
+    border-radius: 10px;
+
+    position: relative;
+    
+    
+
+
+}
+
+/*  NEDANFÖR INUTI NOTES  */
+section .lefts .note .info ,h3 ,p {
+    margin: 12px;
+}
+
+
+section .lefts .note .info {
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px;
+}
+
+section .lefts .note .info .info1 ,.info2 {
+margin-left: 5px;
+
+}
+
+section .lefts .note h3 {
+    font-size: 32px;
+}
+
+section .lefts .note p {
+    
+    font-size: 7px;
+}
+
+section .lefts .note .rodpil {
+    width: 40px;
+    height: 40px;
+
+    background-color: red;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*     Left side            */ 
+
+section .rights {
+    display: flex;
+    flex-direction: column;
+}
+
+section .rights .Title h1 {
+    font-size: 70px;
+    max-width: 400px;
+}
+
+section .rights .Text p {
+    font-size:  25px;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+section .rights .Buttons {
+    display: flex;
+    flex-direction: row;
+    
+
+    margin-top: 30px;
+    gap: 20px;
+    
+    
+}
+
+
+section .rights .Buttons .RightB .buttonpil {
+    background-color: rgb(45, 181, 249);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+} 
+
+section .rights .Buttons .LeftB .buttonpil {
+    background-color: rgb(115, 192, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+} 
+
+
+section .rights .Buttons .LeftB {
+    background-color: greenyellow;
+    width: 170px;
+    height: 50px;
+    
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+section .rights .Buttons .RightB {
+    background-color: rgb(119, 209, 254);
+    width: 170px;
+    height: 50px;
+    
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+    
+}
